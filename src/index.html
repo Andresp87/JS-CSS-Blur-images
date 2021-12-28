@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Blur Image</title>
+</head>
+<body>
+    <header>
+        <div class="title-container">
+            <h1 class="title">Update CSS Variables with <span class="js-letters">JS</span></h1>
+        </div>
+        
+    </header>
+    <main>
+        <form action="controls" class="controls">
+            <label for="spacing">Spacing</label>
+            <input type="range" name="spacing" id="" class="spacing" min="0" max="18" step="1" value="0">
+    
+            <label for="blur">Blur</label>
+            <input type="range" name="blur" id="" class="blur">
+    
+            <label for="color">Color</label>
+            <input type="color" name="color" id="" class="color">
+        </form>
+
+        <div class="image-container">
+            <!-- <div class="image"></div> -->
+            <img src="/images/1.jpg" alt="house with blue sky" id="imagen">
+        </div>
+    
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

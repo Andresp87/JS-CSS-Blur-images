@@ -1,0 +1,15 @@
+{
+  "name": "updatecsswithjs",
+  "version": "1.0.0",
+  "description": "Update Css variables with JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JS",
+    "CSS"
+  ],
+  "author": "Andres Patino <andrespa87@gmail.com>",
+  "license": "MIT"
+}
