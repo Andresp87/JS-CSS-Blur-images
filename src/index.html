@@ -17,14 +17,18 @@
     </header>
     <main>
         <form action="controls" class="controls">
-            <label for="spacing">Spacing</label>
-            <input type="range" name="spacing" id="" class="spacing" min="0" max="18" step="1" value="0">
-    
-            <label for="blur">Blur</label>
-            <input type="range" name="blur" id="" class="blur">
-    
-            <label for="color">Color</label>
-            <input type="color" name="color" id="" class="color">
+            <div>
+                <label for="spacing">Spacing</label>
+                <input type="range" name="spacing" id="spacing" class="spacing" min="0" max="18" step="1" value="10" oninput="addBorder(this.value)">
+            </div>
+            <div>
+                <label for="blur">Blur</label>
+                <input type="range" name="blur" id="" class="blur">
+            </div>
+            <div>
+                <label for="color">Color</label>
+                <input type="color" name="color" id="" class="color">
+            </div>
         </form>
 
         <div class="image-container">
