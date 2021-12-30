@@ -19,7 +19,7 @@
         <form action="controls" class="controls">
             <div>
                 <label for="spacing">Spacing</label>
-                <input type="range" name="spacing" id="spacing" class="spacing" min="0" max="18" step="1" value="10" oninput="addBorder(this.value)">
+                <input type="range" name="spacing" id="spacing" class="spacing" min="0" max="18" step="0.1" value="9" oninput="addBorder(this.value)">
             </div>
             <div>
                 <label for="blur">Blur</label>
@@ -31,7 +31,7 @@
             </div>
         </form>
 
-        <div class="image-container">
+        <div class="image-container" id="image-container">
             <!-- <div class="image"></div> -->
             <img src="/images/1.jpg" alt="house with blue sky" id="imagen">
         </div>
