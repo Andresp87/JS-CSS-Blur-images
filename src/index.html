@@ -23,11 +23,11 @@
             </div>
             <div>
                 <label for="blur">Blur</label>
-                <input type="range" name="blur" id="" class="blur" oninput="addBlur(this.value)">
+                <input type="range" name="blur" id="" class="blur" min="0" max="10" step="0.01" value="0" oninput="addBlur(this.value)">
             </div>
             <div>
                 <label for="color">Color</label>
-                <input type="color" name="color" id="" class="color">
+                <input type="color" name="color" id="" class="color" oninput="addColor(this.value)">
             </div>
         </form>
 
