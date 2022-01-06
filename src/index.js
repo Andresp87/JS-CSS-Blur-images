@@ -6,7 +6,7 @@ function addBorder(borderValue) {
 };
 function addBlur(blurValue) {
     image.style.filter = `blur(${blurValue}px)`;
-}
+};
 function addColor(colorValue) {
     image.style.borderColor = `${colorValue}`;
-}
+};
